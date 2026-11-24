@@ -5,7 +5,7 @@ const iconBtn =
 
 export default function Navbar() {
   return (
-    <header className="absolute inset-x-0 top-0 z-10 mx-auto flex max-w-6xl items-center justify-center gap-6 bg-transparent px-6 py-4 md:gap-40 md:px-10">
+    <header className="page-container absolute inset-x-0 top-0 z-10 flex items-center justify-between gap-6 bg-transparent py-4">
       <nav className="flex items-center gap-6 font-serif text-lg tracking-wide text-white">
         <a href="#" className="transition hover:text-white/70">MAN</a>
         <a href="#" className="transition hover:text-white/70">WOMAN</a>
@@ -16,7 +16,7 @@ export default function Navbar() {
           <input
             type="text"
             placeholder="Search"
-            className="w-full bg-transparent text-xs text-neutral-700 placeholder:text-neutral-500 focus:outline-none"
+            className="w-full bg-transparent text-sm text-neutral-700 placeholder:text-neutral-500 focus:outline-none"
           />
           <SearchIcon className="size-4 text-neutral-500" />
         </label>

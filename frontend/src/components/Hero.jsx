@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Overlay navy agar teks terbaca & menyatu dengan warna brand */}
       <div className="absolute inset-0 bg-linear-to-t from-navy via-navy/60 to-navy/50" />
 
-      <div className="relative mx-auto flex h-full max-w-6xl flex-col justify-end px-8 pb-9">
+      <div className="page-container relative flex h-full flex-col justify-end pb-9">
         <h1 className="font-serif text-4xl text-white md:text-[2.6rem]">OUR PRODUCT</h1>
         <p className="mt-1 text-lg text-white md:text-xl">find your product here</p>
       </div>

@@ -40,3 +40,15 @@ export const MenuIcon = (p) => (
     <path d="M3 6h18M3 12h18M3 18h18" />
   </svg>
 )
+
+export const ChevronLeftIcon = (p) => (
+  <svg {...base} {...p}>
+    <path d="m15 5-7 7 7 7" />
+  </svg>
+)
+
+export const ChevronRightIcon = (p) => (
+  <svg {...base} {...p}>
+    <path d="m9 5 7 7-7 7" />
+  </svg>
+)
